@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    padding: 1%;
+    position: fixed;
+    width: 100%;    
+    overflow: hidden;
+    top: 0;
+}
+
+nav a{
+    color: red;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+nav a:hover {
+    background: rgb(255, 255, 255);
+    color:#000;
+  }
+
+
+.main{
+    margin: 60px 0 0 20px;
+    padding:2%;
+}
+
+header{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1% 0 1% 0;
+}
+
+aside{
+    float: right;
+   width:30%;
+  padding-left: 15px;
+  margin-left: 15px;
+}
+
+table,th,td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#courses-list > div > select{
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
